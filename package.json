@@ -1,0 +1,14 @@
+{
+  "name": "gytis",
+  "version": "1.0.0",
+  "description": "A meme CLI",
+  "main": "index.js",
+  "bin": {
+    "gytis": "./index.js"
+  },
+  "keywords": [
+    "meme"
+  ],
+  "author": "",
+  "license": "ISC"
+}

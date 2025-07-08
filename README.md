@@ -12,37 +12,24 @@ An awesome animated ASCII art display with crazy gradient effects that flows thr
 
 ## Usage
 
-### Animated Mode (Default)
+### Run instantly with npx (No installation needed!)
 ```bash
-node index.js
+npx gytis
 ```
 
 ### Static Mode
 ```bash
-node index.js --static
+npx gytis --static
 # or
-node index.js -s
+npx gytis -s
 ```
 
 ### Stop Animation
 Press `Ctrl+C` to exit the animation gracefully.
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/kurideja/gytis.git
-cd gytis
-```
-
-2. Run the script:
-```bash
-node index.js
-```
-
 ## Requirements
 
-- Node.js
+- Node.js >=12.0.0
 - Terminal with ANSI color support
 
 ## Colors

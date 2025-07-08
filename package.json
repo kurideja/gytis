@@ -1,14 +1,45 @@
 {
   "name": "gytis",
   "version": "1.0.0",
-  "description": "A meme CLI",
+  "description": "🌈 Psychedelic animated ASCII art with Shrek-inspired gradients and crazy purples! Perfect for terminal eye candy.",
   "main": "index.js",
   "bin": {
     "gytis": "./index.js"
   },
+  "scripts": {
+    "start": "node index.js",
+    "static": "node index.js --static"
+  },
   "keywords": [
-    "meme"
+    "ascii-art",
+    "animation",
+    "terminal",
+    "cli",
+    "gradient",
+    "colors",
+    "shrek",
+    "psychedelic",
+    "rainbow",
+    "ansi",
+    "art",
+    "visual",
+    "entertainment"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "kurideja",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kurideja/gytis.git"
+  },
+  "homepage": "https://github.com/kurideja/gytis#readme",
+  "bugs": {
+    "url": "https://github.com/kurideja/gytis/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ]
 }
